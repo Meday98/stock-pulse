@@ -9,8 +9,10 @@ import {
 } from "@/components/ui/dropdown-menu"
 import {useRouter} from "next/navigation";
 import {Button} from "@/components/ui/button";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import NavItems from "@/components/NavItems";
+import {Avatar, AvatarFallback, AvatarImage} from "@/components/ui/avatar"
+import NavItems from "@/components/NavItems"
+
+
 const UserDropdown = () => {
 
     const router = useRouter()
